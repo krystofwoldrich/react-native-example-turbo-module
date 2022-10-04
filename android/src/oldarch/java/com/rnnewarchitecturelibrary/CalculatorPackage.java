@@ -19,11 +19,11 @@ public class CalculatorModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return NAME;
+        return CalculatorModuleImpl.NAME;
     }
 
     @ReactMethod
     public void add(int a, int b, Promise promise) {
-        promise.resolve(a + b);
+        CalculatorModuleImpl.add(a, b, promise);
     }
 }
