@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33A25F5628ECAA960099511D /* RNCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A25F5528ECAA960099511D /* RNCalculator.m */; };
+		33A25F5628ECAA960099511D /* RNCalculator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33A25F5528ECAA960099511D /* RNCalculator.mm */; };
 		33A25F5728ECAA960099511D /* RNCalculator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33A25F5428ECAA960099511D /* RNCalculator.h */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		33A25F5128ECAA960099511D /* libRNCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCalculator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A25F5428ECAA960099511D /* RNCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCalculator.h; sourceTree = "<group>"; };
-		33A25F5528ECAA960099511D /* RNCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCalculator.m; sourceTree = "<group>"; };
+		33A25F5528ECAA960099511D /* RNCalculator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RNCalculator.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				33A25F5428ECAA960099511D /* RNCalculator.h */,
-				33A25F5528ECAA960099511D /* RNCalculator.m */,
+				33A25F5528ECAA960099511D /* RNCalculator.mm */,
 			);
 			path = RNCalculator;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A25F5628ECAA960099511D /* RNCalculator.m in Sources */,
+				33A25F5628ECAA960099511D /* RNCalculator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
