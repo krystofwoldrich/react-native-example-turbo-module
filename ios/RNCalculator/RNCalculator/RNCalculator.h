@@ -1,12 +1,5 @@
-//
-//  RNCalculator.h
-//  RNCalculator
-//
-//  Created by Krystof Woldrich on 04.10.22.
-//
+#import <React/RCTBridgeModule.h>
 
-#import <Foundation/Foundation.h>
-
-@interface RNCalculator : NSObject
+@interface RNCalculator : NSObject <RCTBridgeModule>
 
 @end
