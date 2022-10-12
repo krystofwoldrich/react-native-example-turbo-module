@@ -10,7 +10,7 @@ public class CalculatorModuleImpl {
     public static final String NAME = "Calculator";
 
     public static void add(double a, double b, Promise promise) {
-        promise.resolve(a + b);
+        throw new RuntimeException("My custom run time exception");
     }
 
 }
